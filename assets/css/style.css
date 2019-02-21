@@ -1,0 +1,46 @@
+/*heading*/
+#main-head h1 {
+    color: salmon;
+    text-align: center;
+}
+
+
+/*Random number div*/
+#div-random {
+    margin: 10px;
+    padding: 81px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+/*Score div*/
+
+#score {
+    background-color: orangered;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+/*crystal images*/
+.crystal-img {
+	height: 120px;
+	width: 127px;
+}
+
+
+.well {
+    background-color: lime;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#player-count {
+    background-color: salmon;
+    text-align: center;
+    padding: 80px;
+
+}
