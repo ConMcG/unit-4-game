@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 //Variables for tracking players wins & losses
-var wins = 0;
-var losses = 0;
+const wins = 0;
+const losses = 0;
 
 //The computer's random number for the current round
-var computerNum = [];
+const computerNum = [];
 
 //Random number assigned to crystals for the current round
 var orangeNum;
@@ -18,7 +18,7 @@ var playerCounter = 0;
 
 //**How to start the game**//
 function startGame() {
-	var compNum = Math.floor(Math.random() * 102) + 19;
+	const compNum = Math.floor(Math.random() * 102) + 19;
 	computerNum.push(compNum);
 	$("#random-number").text(computerNum[0]);
 	console.log("Computer number: " + computerNum);
