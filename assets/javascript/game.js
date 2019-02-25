@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
 //Variables for tracking players wins & losses
-const wins = 0;
-const losses = 0;
+var wins = 0;
+var losses = 0;
 
 //The computer's random number for the current round
-const computerNum = [];
+var computerNum = [];
 
 //Random number assigned to crystals for the current round
 var orangeNum;
